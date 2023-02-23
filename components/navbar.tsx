@@ -38,6 +38,7 @@ export default function Navbar() {
 
   let lastOffset = 0;
   const handleScroll = (e: Event) => {
+    if (Math.abs(lastOffset - window.scrollY) < 60) return;
     setMinimize(lastOffset < window.scrollY);
     lastOffset = window.scrollY;
   };

@@ -11,8 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Moritz Löchner</title>
-        <meta name="description" content="My Portfolio" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Web Developer" />
       </Head>
       <main className="max-w-screen-xl mx-auto px-5">
         <div className="py-3 sm:py-16 flex flex-col-reverse sm:flex-row justify-between items-center">
