@@ -56,6 +56,7 @@ function RenderMedia({ media }: { media: Media }) {
         poster={media.poster}
         muted
         autoPlay
+        playsInline
         controls
         loop
         className="rounded-lg"
