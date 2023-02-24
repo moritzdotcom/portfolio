@@ -37,6 +37,21 @@ function RenderText({
             </ul>
           );
         }
+        const button = paragraph.match(/^\s*\[(.*)\]\|(.*)\|$/);
+        if (button) {
+          return (
+            <a
+              key={`paragraph-${identifier}-${i}`}
+              href={button[2]}
+              target="_blank"
+              rel="noreferrer"
+              className="bg-white text-indigo-500 px-2 py-1 rounded-lg text-base inline-flex items-center gap-2"
+            >
+              <HiOutlineExternalLink />
+              {button[1]}
+            </a>
+          );
+        }
         return (
           <p key={`paragraph-${identifier}-${i}`} className="py-1 min-h-[1rem]">
             {paragraph}
