@@ -6,8 +6,8 @@ export const wundernftConfig: Project = {
   media: [
     {
       isVideo: true,
-      source: { url: '/projects/wundernft/showcase.webm', type: 'video/webm' },
-      fallback: { url: '/projects/wundernft/showcase.mp4', type: 'video/mp4' },
+      source: { url: '/projects/wundernft/showcase.mp4', type: 'video/mp4' },
+      length: 6,
     },
     { isVideo: false, source: '/projects/wundernft/0.png' },
     { isVideo: false, source: '/projects/wundernft/1.png' },

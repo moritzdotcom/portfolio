@@ -26,6 +26,7 @@ type Video = {
   source: { url: string; type: string };
   poster?: string;
   fallback?: { url: string; type: string };
+  length?: number;
 };
 
 export type Media = Image | Video;

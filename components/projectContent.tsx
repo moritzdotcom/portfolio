@@ -111,7 +111,9 @@ export default function ProjectContent({ data }: { data: Project }) {
             return (
               <SwiperSlide
                 key={media.isVideo ? media.source.url : media.source}
-                data-swiper-autoplay={media.isVideo ? '120000' : undefined}
+                data-swiper-autoplay={
+                  media.isVideo ? ((media.length || 118) + 2) * 1000 : undefined
+                }
               >
                 <RenderMedia media={media} />
               </SwiperSlide>
