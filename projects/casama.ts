@@ -3,7 +3,16 @@ import { despot, moritz } from './members';
 
 export const casamaConfig: Project = {
   title: 'Casama',
-  media: [{ isVideo: false, source: '/projects/casama/showcase.png' }],
+  media: [
+    {
+      isVideo: true,
+      source: { url: '/projects/casama/showcase.webm', type: 'video/webm' },
+      fallback: { url: '/projects/casama/showcase.mp4', type: 'video/mp4' },
+    },
+    { isVideo: false, source: '/projects/casama/0.png' },
+    { isVideo: false, source: '/projects/casama/1.png' },
+    { isVideo: false, source: '/projects/casama/2.png' },
+  ],
   contributors: [moritz, despot],
   link: 'https://app.casama.io',
   description: [
@@ -12,6 +21,7 @@ export const casamaConfig: Project = {
   ],
   problem: [],
   challenges: [],
+  learnings: [],
   techStack: [
     'For The Web Application',
     '- NextJS',
