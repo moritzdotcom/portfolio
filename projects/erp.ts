@@ -8,5 +8,6 @@ export const erpConfig: Project = {
   description: [],
   problem: [],
   challenges: [],
+  learnings: [],
   techStack: ['- Ruby'],
 };

@@ -14,5 +14,6 @@ export const wunderpassLandingConfig: Project = {
   description: [],
   problem: [],
   challenges: [],
+  learnings: [],
   techStack: ['- NextJS', '- Tailwind', '- MUI'],
 };

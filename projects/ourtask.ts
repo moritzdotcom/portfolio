@@ -16,5 +16,6 @@ export const ourtaskConfig: Project = {
   ],
   problem: [],
   challenges: [],
+  learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- NGINX', '- DigitalOcean'],
 };

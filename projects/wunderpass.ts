@@ -9,5 +9,6 @@ export const wunderpassConfig: Project = {
   description: [],
   problem: [],
   challenges: [],
+  learnings: [],
   techStack: ['- NextJS', '- Tailwind', '- MUI'],
 };

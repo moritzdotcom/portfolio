@@ -26,5 +26,6 @@ export const barcrawlerConfig: Project = {
     '[Share the route with your friends]{After choosing all locations, the user would get a QR Code to share with his friends or use the native Share API in the Browser to share the link directly in any group chat.}',
   ],
   challenges: [],
+  learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Heroku'],
 };

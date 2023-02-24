@@ -39,6 +39,7 @@ export type Project = {
   description: string[];
   problem: string[];
   challenges: string[];
+  learnings: string[];
   techStack: string[];
 };
 

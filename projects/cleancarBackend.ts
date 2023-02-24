@@ -13,5 +13,6 @@ export const cleancarBackendConfig: Project = {
   description: [],
   problem: [],
   challenges: [],
+  learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Docker', '- MateStack'],
 };

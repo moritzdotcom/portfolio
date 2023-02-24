@@ -21,5 +21,6 @@ export const athomeConfig: Project = {
     '[Implementing the Immoscout API to get current rental offers]{The authentication process with the API was complicated and kept me busy for a few hours.}',
     '[Responsiveness]{The old website unfortunately was not responsive at all, so I had no point of reference.}',
   ],
+  learnings: [],
   techStack: ['- NextJS', '- Tailwind'],
 };
