@@ -30,6 +30,7 @@ export default function ProjectModal() {
     () => /\/projects/.test(router.asPath),
     [router.asPath]
   );
+
   const handleClose = () => {
     router.replace('/', '/', { scroll: false });
     setData(null);
@@ -71,8 +72,7 @@ export default function ProjectModal() {
             />
             <Skeleton
               variant="rounded"
-              height={undefined}
-              className="bg-gray-500 w-full aspect-video"
+              className="bg-gray-500 w-full h-auto aspect-video"
             />
             <div className="w-full flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0 justify-between">
               <div className="flex items-center">
