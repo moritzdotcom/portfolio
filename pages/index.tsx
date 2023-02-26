@@ -21,8 +21,8 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    'Web Developer',
                     'Fullstack Developer',
+                    'Co-Founder',
                     'Tech Enthusiast',
                   ],
                   autoStart: true,
