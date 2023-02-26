@@ -170,7 +170,9 @@ export default function ProjectContent({ data }: { data: Project }) {
         />
         {data.problem.length > 0 && (
           <>
-            <h3 className="text-xl text-white mt-5 mb-2">The Problem</h3>
+            <h3 className="text-xl text-white mt-5 mb-2">
+              Problems & Solutions
+            </h3>
             <RenderText
               identifier="problem"
               text={data.problem}

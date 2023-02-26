@@ -2,7 +2,7 @@ import { Project } from '@/projects';
 import { moritz } from './members';
 
 export const wunderpassLandingConfig: Project = {
-  title: 'WunderPass Landing Page',
+  title: 'WunderPass Website',
   media: [
     {
       isVideo: false,
@@ -11,7 +11,9 @@ export const wunderpassLandingConfig: Project = {
   ],
   contributors: [moritz],
   link: 'https://www.wunderpass.io',
-  description: [],
+  description: [
+    'An informative Website to outline the benefits of WunderPass.',
+  ],
   problem: [],
   challenges: [],
   learnings: [],

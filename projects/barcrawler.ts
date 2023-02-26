@@ -19,17 +19,17 @@ export const barcrawlerConfig: Project = {
   githubLink: 'https://github.com/Max-Wolff/BarCrawler',
   contributors: [moritz, maxWolff, gerwin, mohammad],
   description: [
-    'As part of the LeWagon Coding Bootcamp, we should build a Web Application in groups of four in the final two weeks. We wanted to tackle the problem of organizing Pub Crawls. In a Pub Crawl you choose a handful of locations (Pubs, Bars or Clubs) and have a drink at every location throughout the night. We outlined the user journey and started with the design in Figma. Our objective was to have a PubCrawl at the end of the Bootcamp and, as a bonus we wanted to implement some drinking games into the app.',
+    'As part of the LeWagon Coding Bootcamp, we should build a Web Application in groups of four as the final assignment. We wanted to tackle the problem of organizing Pub Crawls. In a Pub Crawl you choose a handful of locations (Pubs, Bars or Clubs) and have one drink at every location throughout the night. We outlined the user journey and started with the design in Figma. Our objective was to have a PubCrawl at the end of the Bootcamp and, as a bonus, we wanted to implement some drinking games into the app.',
   ],
   problem: [
     'We focused on three major problems to solve:',
     '[Choosing the best locations]{We decided to use the Foursquare Places API to get a list of Pubs, Bars and Clubs with a rating above 3 Stars.}',
     '[Optimizing the walking distance between the stops]{With help of the Google Maps API, we could retrieve the distances between each stop and calculate the shortest route.}',
-    '[Share the route with your friends]{After choosing all locations, the user would get a QR Code to share with his friends or use the native Share API in the Browser to share the link directly in any group chat.}',
+    '[Sharing the route with your friends]{After choosing all locations, the user gets a QR Code to share with his friends or use the native Share API in the Browser to share the link directly in any group chat.}',
   ],
   challenges: [
     '[Coding as a team]{As this was our first group project, we had to learn how to distribute tasks effectively and how to code collaboratively, e.g. how to handle pull requests or deal with merge conflicts.}',
-    '[Having a tight deadline]{Our project was quite ambitious and we had to learn how to prioritize tasks to get a project done by the end of a deadline.}',
+    '[Prioritizing tasks]{Our project was quite ambitious and we had to learn how to prioritize tasks to get a project done by the end of the deadline.}',
   ],
   learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Heroku'],

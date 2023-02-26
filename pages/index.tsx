@@ -83,12 +83,12 @@ export default function Home() {
         <section id="about" className="py-5 my-5">
           <h1 className="text-white text-2xl sm:text-4xl mb-3">About Me</h1>
           <p className="text-gray-300 text-base sm:text-lg text-justify">
-            Hi there! My name is Moritz, and I am a full-stack web developer. I
-            started my career journey as a business student, but it wasn&apos;t
-            until I took a programming course in university that I discovered my
-            passion for coding. That experience led me to participate in the
-            LeWagon coding bootcamp in Berlin, where I developed my skills and
-            gained hands-on experience building web applications.
+            Hi there! My name is Moritz, and I am a Full Stack web developer. I
+            started my career journey as a business student, but since taking a
+            programming course in university I discovered my passion for coding.
+            That experience led me to participate in the LeWagon coding bootcamp
+            in Berlin, where I developed my skills and gained hands-on
+            experience building Web Applications.
             <br />
             Since then, I have been on a mission to continuously improve my
             technical abilities and stay up-to-date with the latest
@@ -109,9 +109,9 @@ export default function Home() {
               tags={['React', 'Tailwind']}
             />
             <ProjectCard
-              name="WunderPass Landing Page"
+              name="WunderPass Website"
               link="/projects/wunderpassLanding"
-              description="A Landing Page for the WunderPass Web App."
+              description="A Website for the WunderPass Web App."
               image="/projects/wunderpass/landingPage/showcase.png"
               tags={['React', 'Tailwind']}
             />
@@ -137,9 +137,9 @@ export default function Home() {
               tags={['React', 'Prisma', 'Stripe', 'Tailwind']}
             />
             <ProjectCard
-              name="AtHome Landing Page"
+              name="AtHome Website"
               link="/projects/athome"
-              description="A modern landing page for a property management company."
+              description="A modern Website for a property management company."
               image="/projects/athome/showcase.png"
               tags={['React', 'Tailwind']}
             />
