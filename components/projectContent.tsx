@@ -45,7 +45,7 @@ function RenderText({
               href={button[2]}
               target="_blank"
               rel="noreferrer"
-              className="bg-white text-indigo-500 px-2 py-1 rounded-lg text-base inline-flex items-center gap-2"
+              className="bg-white text-indigo-500 px-2 py-1 rounded-lg text-base inline-flex items-center gap-2 my-1"
             >
               <HiOutlineExternalLink />
               {button[1]}
