@@ -30,7 +30,9 @@ export const cleancarBackendConfig: Project = {
     },
   ],
   contributors: [moritz],
-  description: [],
+  description: [
+    'During my time at CleanCar, the marketing team regularly asked me to update promotions or opening times of our Branches displayed in the mobile Apps. This process seemed very inefficient to me and I wanted to enable anyone to update the App with ease. The CleanCar App Backend was born.',
+  ],
   problem: [],
   challenges: [],
   learnings: [],

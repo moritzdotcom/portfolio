@@ -12,7 +12,7 @@ export const wunderpassLandingConfig: Project = {
   contributors: [moritz],
   link: 'https://www.wunderpass.io',
   description: [
-    'An informative Website to outline the benefits of WunderPass.',
+    'An informative Website to outline the benefits of WunderPass. The project was pretty straight forward and it was exciting to experiment with creative designs and animations.',
   ],
   problem: [],
   challenges: [],
