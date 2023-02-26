@@ -14,6 +14,7 @@ export const barcrawlerConfig: Project = {
     { isVideo: false, source: '/projects/barcrawler/1.png' },
     { isVideo: false, source: '/projects/barcrawler/2.png' },
     { isVideo: false, source: '/projects/barcrawler/3.png' },
+    { isVideo: false, source: '/projects/barcrawler/4.jpg' },
   ],
   githubLink: 'https://github.com/Max-Wolff/BarCrawler',
   contributors: [moritz, maxWolff, gerwin, mohammad],
@@ -26,7 +27,10 @@ export const barcrawlerConfig: Project = {
     '[Optimizing the walking distance between the stops]{With help of the Google Maps API, we could retrieve the distances between each stop and calculate the shortest route.}',
     '[Share the route with your friends]{After choosing all locations, the user would get a QR Code to share with his friends or use the native Share API in the Browser to share the link directly in any group chat.}',
   ],
-  challenges: [],
+  challenges: [
+    '[Coding as a team]{As this was our first group project, we had to learn how to distribute tasks effectively and how to code collaboratively, e.g. how to handle pull requests or deal with merge conflicts.}',
+    '[Having a tight deadline]{Our project was quite ambitious and we had to learn how to prioritize tasks to get a project done by the end of a deadline.}',
+  ],
   learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Heroku'],
 };

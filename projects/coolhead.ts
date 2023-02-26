@@ -12,5 +12,5 @@ export const coolheadConfig: Project = {
   problem: [],
   challenges: [],
   learnings: [],
-  techStack: ['- NextJS', '- PrismaDB', '- Stripe', '- Tailwind'],
+  techStack: ['- NextJS', '- PrismaDB', '- Stripe', '- Docker', '- Tailwind'],
 };

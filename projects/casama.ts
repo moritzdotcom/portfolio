@@ -28,6 +28,7 @@ export const casamaConfig: Project = {
     '- NextJS',
     '- MUI',
     '- Tailwind',
+    '- Docker',
     'For the Smart Contracts',
     '- Solidity',
     '- Hardhat',
