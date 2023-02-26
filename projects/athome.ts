@@ -12,7 +12,7 @@ export const athomeConfig: Project = {
   ],
   contributors: [moritz],
   description: [
-    'This project included both, the redesign of a legacy website as well as the implementation of the new design. With a general content structure in mind, I pursued to get inspiration from modern landing pages.',
+    'This project included both, the redesign of a legacy website as well as the implementation of the new design. With a general content structure in mind, I proceeded to get inspiration from modern landing pages.',
   ],
   problem: [],
   challenges: [

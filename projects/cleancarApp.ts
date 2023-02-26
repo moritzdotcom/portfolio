@@ -3,7 +3,32 @@ import { andreas, jonas, moritz } from './members';
 
 export const cleancarAppConfig: Project = {
   title: 'CleanCar Web App',
-  media: [{ isVideo: false, source: '/projects/cleancarApp/showcase.png' }],
+  media: [
+    {
+      isVideo: true,
+      source: {
+        url: '/projects/cleancarApp/showcase.webm',
+        type: 'video/webm',
+      },
+      fallback: {
+        url: '/projects/cleancarApp/showcase.mp4',
+        type: 'video/mp4',
+      },
+      length: 64,
+    },
+    {
+      isVideo: false,
+      source: '/projects/cleancarApp/0.png',
+    },
+    {
+      isVideo: false,
+      source: '/projects/cleancarApp/1.png',
+    },
+    {
+      isVideo: false,
+      source: '/projects/cleancarApp/2.png',
+    },
+  ],
   contributors: [moritz, jonas, andreas],
   description: [
     'I was recruited by CleanCar to help implement their new digital strategy. The most impactful project was the implementation of an ERP system. The ERP had a lot of benefits, but it was complicated to use. Hence, we decided to build a simple-to-use interface on top of the powerful ERP system: The CleanCarApp.',
