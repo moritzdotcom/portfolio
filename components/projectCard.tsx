@@ -8,7 +8,7 @@ import {
 } from 'react-icons/si';
 import { BsFillGearFill } from 'react-icons/bs';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 export const Tags = {
   Blockchain: FaLink,
@@ -32,7 +32,7 @@ export default function ProjectCard({
   name: string;
   link: string;
   description: string;
-  image: string;
+  image: StaticImageData;
   tags?: (keyof typeof Tags)[];
 }) {
   return (
@@ -50,6 +50,7 @@ export default function ProjectCard({
             className="object-cover group-hover:scale-105 transition-transform"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+            placeholder="blur"
           />
         </div>
         <div className="flex gap-2 flex-wrap text-xs">

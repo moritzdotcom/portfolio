@@ -6,6 +6,18 @@ import ProjectCard from '@/components/projectCard';
 import SocialButton from '@/components/socialButton';
 import ProjectModal from '@/components/projectModal';
 
+import wunderpassImage from '/public/projects/wunderpass/showcase.png';
+import wunderpassLandingPageImage from '/public/projects/wunderpass/landingPage/showcase.png';
+import wundernftImage from '/public/projects/wundernft/showcase.png';
+import casamaImage from '/public/projects/casama/showcase.png';
+import coolheadImage from '/public/projects/coolhead/showcase.png';
+import athomeImage from '/public/projects/athome/showcase.png';
+import cleancarAppImage from '/public/projects/cleancarApp/showcase.png';
+import erpImage from '/public/projects/erp/showcase.png';
+import cleancarBackendImage from '/public/projects/cleancarBackend/showcase.png';
+import ourtaskImage from '/public/projects/ourtask/showcase.png';
+import barcrawlerImage from '/public/projects/barcrawler/showcase.png';
+
 export default function Home() {
   return (
     <>
@@ -105,77 +117,77 @@ export default function Home() {
               name="WunderPass Web App"
               link="/projects/wunderpass"
               description="A Web Application to manage your decentralized Identity and connect to Applications in the WunderPass ecosystem."
-              image="/projects/wunderpass/showcase.png"
+              image={wunderpassImage}
               tags={['React', 'Tailwind']}
             />
             <ProjectCard
               name="WunderPass Website"
               link="/projects/wunderpassLanding"
               description="A Website for the WunderPass Web App."
-              image="/projects/wunderpass/landingPage/showcase.png"
+              image={wunderpassLandingPageImage}
               tags={['React', 'Tailwind']}
             />
             <ProjectCard
               name="WunderPass NFT"
               link="/projects/wundernft"
               description="An NFT Project on the Polygon Blockchain."
-              image="/projects/wundernft/showcase.png"
+              image={wundernftImage}
               tags={['Blockchain', 'React', 'Tailwind']}
             />
             <ProjectCard
               name="Casama"
               link="/projects/casama"
               description="A Blockchain based Web Application for sports prediction games."
-              image="/projects/casama/showcase.png"
+              image={casamaImage}
               tags={['Blockchain', 'React', 'Tailwind']}
             />
             <ProjectCard
               name="Coolhead.finance"
               link="/projects/coolhead"
               description="A Web Application to create or follow Investment rules and get notified when they get triggered."
-              image="/projects/coolhead/showcase.png"
+              image={coolheadImage}
               tags={['React', 'Prisma', 'Stripe', 'Tailwind']}
             />
             <ProjectCard
               name="AtHome Website"
               link="/projects/athome"
               description="A modern Website for a property management company."
-              image="/projects/athome/showcase.png"
+              image={athomeImage}
               tags={['React', 'Tailwind']}
             />
             <ProjectCard
               name="CleanCar Web App"
               link="/projects/cleancarApp"
               description="The ❤️ of CleanCar's IT Infrastructure to manage invoices, employees, daily closings, tasks and much more."
-              image="/projects/cleancarApp/showcase.png"
+              image={cleancarAppImage}
               tags={['Ruby on Rails', 'SQL']}
             />
             <ProjectCard
               name="CleanCar ERP Integration"
               link="/projects/erp"
               description="Automated the data flow from multiple sources into the Commarch ERP system."
-              image="/projects/erp/showcase.png"
+              image={erpImage}
               tags={['Ruby', 'Business Automation']}
             />
             <ProjectCard
               name="CleanCar App Backend"
               link="/projects/cleancarBackend"
               description="A simple interface for CleanCar's marketing team to manage promotions and opening times displayed on the iOS and Android App."
-              image="/projects/cleancarBackend/showcase.png"
+              image={cleancarBackendImage}
               tags={['Ruby on Rails', 'SQL']}
             />
             <ProjectCard
               name="Ourtask"
               link="/projects/ourtask"
               description="A task management Platform built for a property management company - used and loved ever since."
-              image="/projects/ourtask/showcase.png"
+              image={ourtaskImage}
               tags={['Ruby on Rails', 'SQL']}
             />
             <ProjectCard
               name="BarCrawler.club"
               link="/projects/barcrawler"
               description="A Web Application to create and plan a route optimized Pub Crawl to share with your friends - Drinking Games included ;)"
-              image="/projects/barcrawler/showcase.png"
+              image={barcrawlerImage}
               tags={['Ruby on Rails', 'SQL']}
             />
           </div>
