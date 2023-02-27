@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 function NavLink({
   path,
@@ -36,19 +36,20 @@ export default function Navbar() {
   const [minimize, setMinimize] = useState(false);
   const router = useRouter();
 
-  let lastOffset = 0;
-  const handleScroll = (e: Event) => {
-    if (Math.abs(lastOffset - window.scrollY) < 60) return;
-    setMinimize(lastOffset < window.scrollY);
-    lastOffset = window.scrollY;
-  };
+  let lastOffset = useRef<number>(0);
+
+  const handleScroll = useCallback(() => {
+    if (Math.abs(lastOffset.current - window.scrollY) < 60) return;
+    setMinimize(lastOffset.current < window.scrollY);
+    lastOffset.current = window.scrollY;
+  }, []);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [handleScroll]);
 
   return (
     <div className="sticky top-0 overflow-hidden z-50">
