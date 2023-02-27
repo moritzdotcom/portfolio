@@ -19,18 +19,22 @@ export const cleancarBackendConfig: Project = {
     {
       isVideo: false,
       source: '/projects/cleancarBackend/0.png',
+      alt: 'dashboard',
     },
     {
       isVideo: false,
       source: '/projects/cleancarBackend/1.png',
+      alt: 'detailed branch',
     },
     {
       isVideo: false,
       source: '/projects/cleancarBackend/2.png',
+      alt: 'coupon list',
     },
     {
       isVideo: false,
       source: '/projects/cleancarBackend/3.png',
+      alt: 'detailed coupon',
     },
   ],
   contributors: [moritz],

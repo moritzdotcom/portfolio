@@ -4,12 +4,13 @@ import { moritz } from './members';
 export const athomeConfig: Project = {
   title: 'AtHome Website',
   media: [
-    { isVideo: false, source: '/projects/athome/0.png' },
-    { isVideo: false, source: '/projects/athome/1.png' },
-    { isVideo: false, source: '/projects/athome/2.png' },
-    { isVideo: false, source: '/projects/athome/3.png' },
-    { isVideo: false, source: '/projects/athome/4.png' },
+    { isVideo: false, source: '/projects/athome/0.png', alt: 'home' },
+    { isVideo: false, source: '/projects/athome/1.png', alt: 'flats' },
+    { isVideo: false, source: '/projects/athome/2.png', alt: 'offerings' },
+    { isVideo: false, source: '/projects/athome/3.png', alt: 'detailed flat' },
+    { isVideo: false, source: '/projects/athome/4.png', alt: 'contact' },
   ],
+  githubLink: 'https://github.com/moritzdotcom/athome-website',
   contributors: [moritz],
   description: [
     'This project included both, redesigning the legacy website as well as implementating the new design. With a general content structure in mind, I proceeded to get inspiration from modern Websites.',

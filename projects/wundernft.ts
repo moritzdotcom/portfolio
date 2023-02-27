@@ -10,8 +10,16 @@ export const wundernftConfig: Project = {
       fallback: { url: '/projects/wundernft/showcase.mp4', type: 'video/mp4' },
       length: 12,
     },
-    { isVideo: false, source: '/projects/wundernft/0.png' },
-    { isVideo: false, source: '/projects/wundernft/1.png' },
+    {
+      isVideo: false,
+      source: '/projects/wundernft/0.png',
+      alt: 'minting page',
+    },
+    {
+      isVideo: false,
+      source: '/projects/wundernft/1.png',
+      alt: 'image generator',
+    },
   ],
   contributors: [moritz],
   link: 'https://mint.wunderpass.org/',

@@ -19,14 +19,17 @@ export const cleancarAppConfig: Project = {
     {
       isVideo: false,
       source: '/projects/cleancarApp/0.png',
+      alt: 'dashboard',
     },
     {
       isVideo: false,
       source: '/projects/cleancarApp/1.png',
+      alt: 'new daily closing',
     },
     {
       isVideo: false,
       source: '/projects/cleancarApp/2.png',
+      alt: 'invoices',
     },
   ],
   contributors: [moritz, jonas, andreas],
