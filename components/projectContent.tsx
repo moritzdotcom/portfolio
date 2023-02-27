@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Image from 'next/image';
 
 function RenderText({
   identifier,
@@ -82,7 +83,18 @@ function RenderMedia({ media }: { media: Media }) {
         )}
       </video>
     );
-  return <img src={media.source} className="rounded-lg" />;
+  return (
+    <div className="w-full relative aspect-video">
+      <Image
+        src={media.source}
+        alt={media.alt || ''}
+        className="rounded-lg object-cover"
+        fill
+        sizes="100vw"
+        priority
+      />
+    </div>
+  );
 }
 
 export default function ProjectContent({ data }: { data: Project }) {

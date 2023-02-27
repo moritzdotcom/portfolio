@@ -8,6 +8,7 @@ import {
 } from 'react-icons/si';
 import { BsFillGearFill } from 'react-icons/bs';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const Tags = {
   Blockchain: FaLink,
@@ -42,10 +43,13 @@ export default function ProjectCard({
       as={link}
     >
       <div className="rounded-lg w-full overflow-hidden flex flex-col gap-2">
-        <div className="overflow-hidden w-full">
-          <img
+        <div className="overflow-hidden rounded-lg w-full relative aspect-[5/3]">
+          <Image
             src={image}
-            className="w-full aspect-square object-cover group-hover:scale-105 transition-transform"
+            alt={name}
+            className="object-cover group-hover:scale-105 transition-transform"
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
           />
         </div>
         <div className="flex gap-2 flex-wrap text-xs">
