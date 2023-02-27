@@ -19,6 +19,7 @@ type Member = {
 type Image = {
   isVideo: false;
   source: string;
+  blurUrl?: string;
   alt?: string;
 };
 
