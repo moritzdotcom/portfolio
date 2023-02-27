@@ -8,6 +8,7 @@ export const casamaConfig: Project = {
       isVideo: true,
       source: { url: '/projects/casama/showcase.webm', type: 'video/webm' },
       fallback: { url: '/projects/casama/showcase.mp4', type: 'video/mp4' },
+      poster: '/projects/casama/poster.jpg',
       length: 22,
     },
     {

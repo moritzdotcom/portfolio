@@ -14,6 +14,7 @@ export const cleancarBackendConfig: Project = {
         url: '/projects/cleancarBackend/showcase.mp4',
         type: 'video/mp4',
       },
+      poster: '/projects/cleancarBackend/poster.jpg',
       length: 77,
     },
     {

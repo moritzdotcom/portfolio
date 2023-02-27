@@ -8,6 +8,7 @@ export const ourtaskConfig: Project = {
       isVideo: true,
       source: { url: '/projects/ourtask/showcase.webm', type: 'video/webm' },
       fallback: { url: '/projects/ourtask/showcase.mp4', type: 'video/mp4' },
+      poster: '/projects/ourtask/poster.jpg',
       length: 70,
     },
   ],

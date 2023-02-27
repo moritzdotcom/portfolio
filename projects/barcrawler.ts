@@ -8,6 +8,7 @@ export const barcrawlerConfig: Project = {
       isVideo: true,
       source: { url: '/projects/barcrawler/showcase.webm', type: 'video/webm' },
       fallback: { url: '/projects/barcrawler/showcase.mp4', type: 'video/mp4' },
+      poster: '/projects/barcrawler/poster.jpg',
       length: 75,
     },
     {
