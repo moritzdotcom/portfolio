@@ -25,10 +25,10 @@ function Blob({ className, fill }: { className?: string; fill?: string }) {
 export default function Wrapper({ children }: { children: ReactNode }) {
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-800 via-zinc-900 to-gray-900 fixed -z-10 w-screen h-screen">
+      <div className="bg-gradient-to-r from-gray-800 via-zinc-900 to-gray-900 fixed -z-10 w-screen h-[200vh]">
         <div className="blur w-full h-full relative">
           <Blob className="absolute right-0 w-1/2 min-w-[180px]" />
-          <Blob className="absolute left-0 bottom-0 w-1/3 min-w-[160px]" />
+          <Blob className="absolute left-0 bottom-1/2 w-1/3 min-w-[160px]" />
         </div>
       </div>
       {children}
