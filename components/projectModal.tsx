@@ -37,7 +37,8 @@ export default function ProjectModal() {
   };
 
   useEffect(() => {
-    if (!isOpen) return setData(null);
+    setData(null);
+    if (!isOpen) return;
     fetch(`/api${router.asPath}`).then((res) =>
       res.json().then((d) => setData(d))
     );
