@@ -68,8 +68,8 @@ export default function ProjectCard({
           })}
         </div>
         <div>
-          <h3 className="text-white text-xl mb-1">{name}</h3>
-          <p className="text-sm text-gray-300">{description}</p>
+          <h2 className="text-white text-xl mb-1">{name}</h2>
+          <h3 className="text-sm text-gray-300">{description}</h3>
         </div>
       </div>
     </Link>

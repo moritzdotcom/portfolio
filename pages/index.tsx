@@ -46,16 +46,23 @@ export default function Home() {
               <SocialButton
                 Icon={BsGithub}
                 href="https://github.com/moritzdotcom"
+                ariaLabel="Github"
               />
               <SocialButton
                 Icon={BsLinkedin}
                 href="https://www.linkedin.com/in/moritz-loechner/"
+                ariaLabel="Linkedin"
               />
               <SocialButton
                 Icon={IoMdMail}
                 href="mailto:moritz.loechner@gmail.com"
+                ariaLabel="Mail"
               />
-              <SocialButton Icon={BsTelegram} href="https://t.me/mo_loc" />
+              <SocialButton
+                Icon={BsTelegram}
+                href="https://t.me/mo_loc"
+                ariaLabel="Telegram"
+              />
             </div>
           </div>
           <div className="w-full max-w-xs sm:max-w-md">
@@ -200,16 +207,23 @@ export default function Home() {
             <SocialButton
               Icon={BsGithub}
               href="https://github.com/moritzdotcom"
+              ariaLabel="Github"
             />
             <SocialButton
               Icon={BsLinkedin}
               href="https://www.linkedin.com/in/moritz-loechner/"
+              ariaLabel="Linkedin"
             />
             <SocialButton
               Icon={IoMdMail}
               href="mailto:moritz.loechner@gmail.com"
+              ariaLabel="Mail"
             />
-            <SocialButton Icon={BsTelegram} href="https://t.me/mo_loc" />
+            <SocialButton
+              Icon={BsTelegram}
+              href="https://t.me/mo_loc"
+              ariaLabel="Telegram"
+            />
           </div>
         </section>
       </main>
