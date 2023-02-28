@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply bg-zinc-900;
+}
+
 .swiper {
   --swiper-pagination-color: rgb(79, 70, 229);
   --swiper-navigation-color: rgb(79, 70, 229);

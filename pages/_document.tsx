@@ -5,6 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        {/* theme-color: zinc-900 */}
+        <meta name="theme-color" content="#18181b" />
       </Head>
       <body>
         <Main />
