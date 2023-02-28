@@ -54,4 +54,6 @@ export const athomeConfig: Project = {
   ],
   learnings: [],
   techStack: ['- NextJS', '- Tailwind'],
+  prev: { slug: 'coolhead', name: 'Coolhead' },
+  next: { slug: 'cleancarApp', name: 'CC App' },
 };

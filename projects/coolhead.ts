@@ -68,4 +68,6 @@ export const coolheadConfig: Project = {
   ],
   learnings: [],
   techStack: ['- NextJS', '- PrismaDB', '- Stripe', '- Docker', '- Tailwind'],
+  prev: { slug: 'casama', name: 'Casama' },
+  next: { slug: 'athome', name: 'AtHome Web' },
 };

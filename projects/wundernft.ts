@@ -27,6 +27,7 @@ export const wundernftConfig: Project = {
   ],
   contributors: [moritz],
   link: 'https://mint.wunderpass.org/',
+  githubLink: 'https://github.com/WunderPass/SmartContract-WunderNFT',
   description: [
     'The WunderPass NFT is an NFT project on the Polygon Blockchain. The NFT can be used to get perks in the WunderPass ecosystem. It has four properties that, combined, give every NFT a unique touch and determines it\'s rarity. The "status" property (e.g. diamond, black, pearl) is determined by the number of NFTs already created. The "wonder" and "pattern" properties are based on luck and the "edition" is a city of the creators choosing. The long term vision is to release a physical card containing your digital identity that can be used to authenticate yourself, e.g. Check in at hotels, use public transportation or get access to an event.',
   ],
@@ -53,4 +54,6 @@ export const wundernftConfig: Project = {
     '- Solidity',
     '- Hardhat',
   ],
+  prev: { slug: 'wunderpassLanding', name: 'WunderPass Web' },
+  next: { slug: 'casama', name: 'Casama' },
 };

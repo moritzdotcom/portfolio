@@ -41,7 +41,7 @@ export default function ProjectModal() {
     fetch(`/api${router.asPath}`).then((res) =>
       res.json().then((d) => setData(d))
     );
-  }, [isOpen]);
+  }, [isOpen, router.asPath]);
 
   return (
     <Dialog

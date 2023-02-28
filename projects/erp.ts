@@ -17,4 +17,6 @@ export const erpConfig: Project = {
   challenges: [],
   learnings: [],
   techStack: ['- Ruby'],
+  prev: { slug: 'cleancarApp', name: 'CC App' },
+  next: { slug: 'cleancarBackend', name: 'CC App Backend' },
 };

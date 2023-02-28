@@ -52,4 +52,6 @@ export const cleancarAppConfig: Project = {
   challenges: [],
   learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Docker', '- MateStack'],
+  prev: { slug: 'athome', name: 'AtHome Web' },
+  next: { slug: 'erp', name: 'ERP Integration' },
 };

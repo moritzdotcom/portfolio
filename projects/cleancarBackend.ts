@@ -60,4 +60,6 @@ export const cleancarBackendConfig: Project = {
   challenges: [],
   learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Docker', '- MateStack'],
+  prev: { slug: 'erp', name: 'ERP Integration' },
+  next: { slug: 'ourtask', name: 'Ourtask' },
 };

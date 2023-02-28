@@ -10,6 +10,11 @@ import { wundernftConfig } from './wundernft';
 import { wunderpassConfig } from './wunderpass';
 import { wunderpassLandingConfig } from './wunderpassLanding';
 
+type ProjectLink = {
+  slug: string;
+  name: string;
+};
+
 type Member = {
   image: string;
   name: string;
@@ -44,6 +49,8 @@ export type Project = {
   challenges: string[];
   learnings: string[];
   techStack: string[];
+  prev?: ProjectLink;
+  next?: ProjectLink;
 };
 
 export const projects: { [key: string]: Project } = {

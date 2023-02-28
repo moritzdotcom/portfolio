@@ -64,4 +64,5 @@ export const barcrawlerConfig: Project = {
   ],
   learnings: [],
   techStack: ['- Ruby on Rails', '- PostgreSQL', '- Heroku'],
+  prev: { slug: 'ourtask', name: 'Ourtask' },
 };

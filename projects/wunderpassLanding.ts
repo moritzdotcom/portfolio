@@ -28,4 +28,6 @@ export const wunderpassLandingConfig: Project = {
   challenges: [],
   learnings: [],
   techStack: ['- NextJS', '- Tailwind', '- MUI'],
+  prev: { slug: 'wunderpass', name: 'WunderPass' },
+  next: { slug: 'wundernft', name: 'WunderNFT' },
 };

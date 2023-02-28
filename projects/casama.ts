@@ -56,4 +56,6 @@ export const casamaConfig: Project = {
     '- Solidity',
     '- Hardhat',
   ],
+  prev: { slug: 'wundernft', name: 'WunderNFT' },
+  next: { slug: 'coolhead', name: 'Coolhead' },
 };

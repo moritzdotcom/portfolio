@@ -1,6 +1,6 @@
 import { Media, Project } from '@/projects';
 import { Avatar, Tooltip } from '@mui/material';
-import { BsGithub } from 'react-icons/bs';
+import { BsArrowLeft, BsArrowRight, BsGithub } from 'react-icons/bs';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function RenderText({
   identifier,
@@ -216,6 +217,32 @@ export default function ProjectContent({ data }: { data: Project }) {
             />
           </>
         )}
+        <div className="flex items-center justify-between gap-3 my-5">
+          {data.prev ? (
+            <Link
+              href="/"
+              className="bg-white text-indigo-500 px-3 py-2 rounded-lg text-base inline-flex items-center gap-1"
+              as={`/projects/${data.prev.slug}`}
+            >
+              <BsArrowLeft className="text-2xl" />
+              {data.prev.name}
+            </Link>
+          ) : (
+            <div />
+          )}
+          {data.next ? (
+            <Link
+              href="/"
+              className="bg-white text-indigo-500 px-3 py-2 rounded-lg text-base inline-flex items-center gap-1"
+              as={`/projects/${data.next.slug}`}
+            >
+              {data.next.name}
+              <BsArrowRight className="text-2xl" />
+            </Link>
+          ) : (
+            <div />
+          )}
+        </div>
       </div>
     </div>
   );

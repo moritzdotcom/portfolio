@@ -57,4 +57,5 @@ export const wunderpassConfig: Project = {
   ],
   learnings: [],
   techStack: ['- NextJS', '- Tailwind', '- Docker', '- MUI'],
+  next: { slug: 'wunderpassLanding', name: 'WunderPass Web' },
 };
