@@ -1,3 +1,4 @@
+import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
 import Wrapper from '@/components/wrapper';
 import '@/styles/globals.css';
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Wrapper>
           <Navbar />
           <Component {...pageProps} />
+          <Footer />
         </Wrapper>
       </StyledEngineProvider>
     </>
