@@ -60,7 +60,21 @@ export const projects: { [key: string]: Project } = {
   barcrawler: barcrawlerConfig,
 };
 
-export function getPorjectBySlug(slug: string) {
+export const validSlugs = [
+  'wunderpass',
+  'wunderpassLanding',
+  'wundernft',
+  'casama',
+  'coolhead',
+  'athome',
+  'cleancarApp',
+  'erp',
+  'cleancarBackend',
+  'ourtask',
+  'barcrawler',
+];
+
+export function getProjectBySlug(slug: string) {
   if (typeof slug == 'string' && slug in projects) {
     return projects[slug];
   }
