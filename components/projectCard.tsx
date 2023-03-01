@@ -49,7 +49,7 @@ export default function ProjectCard({
             alt={name}
             className="object-cover group-hover:scale-105 transition-transform"
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+            sizes="(max-width: 640px) 95vw, (max-width: 768px) 50vw, 33vw"
             placeholder="blur"
           />
         </div>

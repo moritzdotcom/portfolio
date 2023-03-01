@@ -91,7 +91,7 @@ function RenderMedia({ media }: { media: Media }) {
         alt={media.alt || ''}
         className="rounded-lg object-cover"
         fill
-        sizes="100vw"
+        sizes="95vw"
         placeholder={media.blurUrl ? 'blur' : 'empty'}
         blurDataURL={media.blurUrl}
         priority
