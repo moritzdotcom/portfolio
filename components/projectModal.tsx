@@ -56,12 +56,12 @@ export default function ProjectModal() {
           'rounded-t-lg bg-gradient-to-r from-gray-800 via-zinc-900 to-gray-900',
       }}
     >
-      <div className="w-full relative">
+      <div className="w-full max-w-screen-lg mx-auto relative">
         <button
           onClick={handleClose}
-          className="absolute top-0 right-0 text-3xl text-indigo-600 p-3"
+          className="sticky top-0 right-0 text-3xl text-indigo-600 p-3 float-right z-50"
         >
-          <IoMdClose />
+          <IoMdClose className="bg-gray-900 rounded-full mr-1" />
         </button>
         {data ? (
           <ProjectContent data={data} />
