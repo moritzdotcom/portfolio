@@ -66,7 +66,7 @@ export default function ProjectModal() {
         {data ? (
           <ProjectContent data={data} />
         ) : (
-          <div className="flex flex-col items-center gap-3 max-w-screen-lg mx-auto p-3 mt-5">
+          <div className="w-full flex flex-col items-center gap-3 p-3 mt-5">
             <Skeleton
               variant="text"
               className="bg-gray-500 w-1/3 max-w-md text-2xl"
