@@ -17,8 +17,24 @@ import erpImage from '/public/projects/erp/showcase.png';
 import cleancarBackendImage from '/public/projects/cleancarBackend/showcase.png';
 import ourtaskImage from '/public/projects/ourtask/showcase.png';
 import barcrawlerImage from '/public/projects/barcrawler/showcase.png';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [renderModal, setRenderModal] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.asPath == '/') {
+      const timeout = setTimeout(() => {
+        setRenderModal(false);
+      }, 300);
+      return () => clearInterval(timeout);
+    } else {
+      setRenderModal(true);
+    }
+  }, [router.asPath]);
+
   return (
     <>
       <Head>
@@ -227,7 +243,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <ProjectModal />
+      {renderModal && <ProjectModal />}
     </>
   );
 }
