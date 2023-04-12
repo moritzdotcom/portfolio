@@ -103,11 +103,13 @@ export default function Home() {
           <h1 className="text-white text-2xl sm:text-4xl mb-3">About Me</h1>
           <p className="text-gray-300 text-base sm:text-lg text-justify">
             Hi there! My name is Moritz, and I am a Full Stack web developer. I
-            started my career journey as a business student, but since taking a
-            programming course in university I discovered my passion for coding.
-            That experience led me to participate in the LeWagon coding bootcamp
-            in Berlin, where I developed my skills and gained hands-on
-            experience building Web Applications.
+            started my career journey as a business student at WHU, but since
+            taking a programming course in university I discovered my passion
+            for coding. After graduating with a bachelors degree in
+            International Management, I completed the LeWagon coding bootcamp in
+            Berlin, where I developed my skills, gained hands-on experience
+            building Web Applications and met some inspiring people interested
+            in coding.
             <br />
             Since then, I have been on a mission to continuously improve my
             technical abilities and stay up-to-date with the latest
